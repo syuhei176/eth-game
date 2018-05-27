@@ -1,0 +1,11 @@
+ld
+node_modules
+*.log
+db/*
+!db/.gitkeep
+.env
+
+
+## solidity
+
+build/
