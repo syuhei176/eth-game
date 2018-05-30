@@ -54,9 +54,11 @@
     "react-redux": "5.0.6",
     "redux": "3.7.2",
     "redux-thunk": "2.2.0",
+    "soltsice": "^0.11.5",
     "truffle-hdwallet-provider": "0.0.5"
   },
   "scripts": {
+    "types": "soltsice ./build/contracts types",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
