@@ -3,14 +3,31 @@ eth-game
 
 ### install
 
+installing dependencies.
+
 ```
-npm i
+npm i // yarn install
 ```
 
-## compile and migration
+## test
+
+Test contracts.
+
+```
+truffle test
+```
+
+## compile
 
 ```
 truffle compile
+```
+
+## migration
+
+setting up development network with Ganache ( http://truffleframework.com/ganache/ ).
+
+```
 truffle migration
 ```
 
